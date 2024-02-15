@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Satisfy&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(255, 6, 201);
+}
+
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/08/11/49/couple-560783_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    width: 1900px;
+    height: 2020px;
+    border-radius: 5px solid red;
+    opacity: 0.80;
+    padding: 2%;
+    border-radius: 7%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-header{
+    padding: 2%;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3498db;
+    border-radius: 7%;
+
+}
+
+h3{
+    font-size: 100px;
+    color: yellow;
+    font-weight: 100%;
+}
+
+h2{
+    font-family: "Pacifico";
+    color: red;
+    
+}
+
+.text{
+    font-size: 75px;
+    font-family: "Satisfy";
+    color: black;
+    font-weight: bold;
+    display: none;
+}   
+
+.click{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    font-size: 10vh;
+    font-family:  "Pacifico", "Satisfy";
+    color: red;
+}
+
+
+.panda-gif{
+    height: 80vh;
+    margin: auto;
+    display: block;
+    animation:panda 1s steps(1) infinite;
+}
+ 
+@keyframes panda{
+    from{
+       transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+.footer{
+    bottom: 0;
+    position: absolute;
+    text-decoration: underline;
+    color: aqua;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+
